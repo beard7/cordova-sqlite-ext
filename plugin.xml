@@ -28,6 +28,8 @@
                 <param name="android-package" value="io.sqlc.SQLitePlugin"/>
             </feature>
         </config-file>
+        
+        <framework src="src/android/sqlite.gradle" custom="true" type="gradleReference"/>
 
         <source-file src="src/android/io/sqlc/SQLitePlugin.java" target-dir="src/io/sqlc"/>
         <source-file src="src/android/io/sqlc/SQLiteAndroidDatabase.java" target-dir="src/io/sqlc"/>
